@@ -114,9 +114,9 @@ Creating normal pod
 apiVersion: v1
 kind: Pod
 metadata:
-  name: pod1
+  name: pod4
   labels:
-    Enviourment: qa
+    app1: qa
 spec:
   containers:
   - name: hello1
@@ -125,9 +125,9 @@ spec:
 apiVersion: v1
 kind: Pod
 metadata:
-  name: pod2
+  name: pod5
   labels:
-    Enviourment: test
+    app1 : qa
 spec:
   containers:
   - name: hello2
