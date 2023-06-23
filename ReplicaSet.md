@@ -86,9 +86,9 @@ spec:
 apiVersion: apps/v1  # our API version
 kind: ReplicaSet # # The kind we are creating
 metadata: # Specify all Metadata like name, labels
- name: frontend
+ name: frontend1
  labels:
-   app: frontend
+   app: frontend1
 spec:
   replicas: 3 # Here is where we tell k8s how many replicas we want
   selector:   # This is our label selector field.
